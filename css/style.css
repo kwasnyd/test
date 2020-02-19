@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext');
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+html {
+    font-family: open sans, sans-serif;
+
+}
+
+.wrap {
+    margin: 0 auto;
+    height: 800px;
+    width: 920px;
+}
+
+.bgc {
+    background-image: url(../images/background.jpg);
+
+}
+
+
+
+.logo {
+    padding-top: 27px;
+
+
+
+
+}
+
+.red {
+    margin-bottom: 127px;
+    line-height: 80px;
+}
+
+.logo1 {
+    height: 20px;
+    width: 100px;
+
+
+}
+
+.menu {
+    float: right;
+
+
+
+
+}
+
+
+nav a {
+    padding-right: 25px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+
+
+}
+
+/*wysrodkuj w pionie a*/
+nav a:nth-child(5) {
+    padding-right: 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+button {
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+
+}
+
+main {
+    margin: 0 auto;
+    height: 500px;
+    width: 920px;
+}
+
+.test {
+    float: left;
+    width: 50%;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.slogan {
+    float: left;
+    width: 50%;
+    margin-top: 175px;
+    margin-bottom: 175px;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 50px;
+    color: grey;
+
+}
+
+
+
+
+p.text {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #b7b7b7;
+}
+
+.test p:last-child {
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+
+.test p:first-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.bgc1 {
+    background-color: black;
+}
+
+
+footer {
+
+    background-color: black;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    height: 300px;
+    width: 920px;
+}
+
+div.f1 {
+
+    line-height: 20px;
+    padding: 35px 0;
+
+
+}
+
+.f1 img {
+    width: 100px;
+    height: 20px;
+}
+
+
+.SI {
+    float: left;
+    width: 25%;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.PT {
+    float: left;
+    width: 25%;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.nothing {
+    float: left;
+    width: 25%;
+    color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.CR {
+    float: left;
+    width: 25%;
+    color: #353434;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
